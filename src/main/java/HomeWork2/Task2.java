@@ -12,4 +12,4 @@ public class Task2 {
         System.out.println(min);
         System.out.println(max);
 
-    }}ush
+    }}
