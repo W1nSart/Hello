@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 package HomeWork2;
 
 public class Task2 {
@@ -15,4 +14,3 @@ public class Task2 {
         System.out.println(max);
 
     }}
->>>>>>> ec3cc2590ef54aa3f4ed26519ae2a5f798dd14b5

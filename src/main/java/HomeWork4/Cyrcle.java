@@ -2,20 +2,20 @@ package HomeWork4;
 
 public class Cyrcle {
         int radius;
-
-       Cyrcle (int r, int s) {
+        static final double Pi = 3.1415926536;
+        Cyrcle (int r) {
             radius = r;
-            side = s;
 
 
         }
-        public static int getSq(int h, int h){
-            int Side = Math.h * ;
-            return  Side;
+        public static int getPerim(int r){
+            int CyrclePerim = (int) (2 * Pi * r);
+            return  CyrclePerim;
 
         }
-
-
+        public static int getSq(int r){
+            int CyrcleSq = (int) (Pi * Math.pow(r,2));
+            return CyrcleSq;
 
     }
 }

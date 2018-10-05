@@ -14,6 +14,10 @@ public class Square {
         return Perim;
 
     }
+    public static int getSq(int a){
+        int Sq = a * a;
+        return Sq;
+    }
 
 
     }
