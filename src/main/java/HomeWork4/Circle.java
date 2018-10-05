@@ -9,13 +9,13 @@ public class Circle {
 
     }
 
-    public static int getPerim(int radius) {
+    protected static int getPerim(int radius) {
         int CirclePerim = (int) (2 * Pi * radius);
         return CirclePerim;
 
     }
 
-    public static int getSq(int radius) {
+    protected static int getSq(int radius) {
         int CircleSq = (int) (Pi * Math.pow(radius, 2));
         return CircleSq;
 

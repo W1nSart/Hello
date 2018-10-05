@@ -11,14 +11,14 @@ public class Triangle {
     }
 
 
-    public static int getPerim(int side1, int side2) {
+    protected static int getPerim(int side1, int side2) {
         int Perim = side1 + side1 + side2;
         return Perim;
 
 
     }
 
-    public static int getSq(int side1, int side2) {
+    protected static int getSq(int side1, int side2) {
         int Sq = (int) (0.5 * side1 * side2 * Math.asin(corner));
         return Sq;
 

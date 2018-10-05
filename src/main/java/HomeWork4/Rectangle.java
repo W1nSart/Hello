@@ -9,13 +9,13 @@ public class Rectangle {
     }
 
 
-    public static int getPerim(int hight, int side) {
+    protected static int getPerim(int hight, int side) {
         int Perim = 2*(hight + side);
         return Perim;
 
 
     }
-    public static int getSq(int side, int hight){
+    protected static int getSq(int side, int hight){
         int Side = hight * side;
         return  Side;
 

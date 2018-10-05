@@ -8,12 +8,12 @@ public class Square {
     }
 
 
-    public static int getPerim(int sideLenght) {
+    protected static int getPerim(int sideLenght) {
         int Perim = sideLenght * 4;
         return Perim;
     }
 
-    public static int getSq(int sideLenght) {
+    protected static int getSq(int sideLenght) {
         int Sq = sideLenght * sideLenght;
         return Sq;
     }
