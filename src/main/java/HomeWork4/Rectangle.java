@@ -4,21 +4,19 @@ public class Rectangle {
     int hight;
     int side;
 
-     Rectangle(int h, int s) {
-         hight = h;
-         side = s;
+     Rectangle(int hight, int side) {
 
     }
 
 
-    public static int getPerim(int h, int s ) {
-        int Perim = h + s + h + s;
+    public static int getPerim(int hight, int side) {
+        int Perim = 2*(hight + side);
         return Perim;
 
 
     }
-    public static int getSq(int s, int h){
-        int Side = h * s;
+    public static int getSq(int side, int hight){
+        int Side = hight * side;
         return  Side;
 
     }
