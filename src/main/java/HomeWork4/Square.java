@@ -3,17 +3,15 @@ package HomeWork4;
 public class Square {
     int sideLenght;
 
-    Square(int sideLenght) {
-
+    public Square(int sideLenght) {
+        this.sideLenght = sideLenght;
     }
-
-
-    protected static int getPerim(int sideLenght) {
+    protected  int getPerim() {
         int Perim = sideLenght * 4;
         return Perim;
     }
 
-    protected static int getSq(int sideLenght) {
+    protected int getSq() {
         int Sq = sideLenght * sideLenght;
         return Sq;
     }

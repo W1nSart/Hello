@@ -10,10 +10,9 @@ public class RectangleMenu {
         int hi = scan.nextInt();
         System.out.print("Введите длину стороны: ");
         int si = scan.nextInt();
-        int a = Rectangle.getPerim(hi, si);
-        int b = Rectangle.getSq(si, hi);
-        System.out.println("Периметр прямоугольника c выстой - " + hi + " и длиной стороны - " + si + " равен " + a);
-        System.out.println("Площадь прямоугольника c выстой - " + hi + " и длиной стороны - " + si + " равна " + b);
+        Rectangle r = new Rectangle(hi,si);
+        System.out.println("Периметр прямоугольника c выстой - " + hi + " и длиной стороны - " + si + " равен " + r.getPerim());
+        System.out.println("Площадь прямоугольника c выстой - " + hi + " и длиной стороны - " + si + " равна " + r.getSq());
 
     }
 }

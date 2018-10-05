@@ -4,18 +4,14 @@ public class Circle {
     int radius;
     static final double Pi = 3.1415926536;
 
-    Circle(int radius) {
-
-
+    public Circle(int radius) {
+        this.radius = radius;
     }
-
-    protected static int getPerim(int radius) {
+    protected int getPerim() {
         int CirclePerim = (int) (2 * Pi * radius);
         return CirclePerim;
-
     }
-
-    protected static int getSq(int radius) {
+    protected int getSq() {
         int CircleSq = (int) (Pi * Math.pow(radius, 2));
         return CircleSq;
 
