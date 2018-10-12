@@ -3,16 +3,13 @@ package HomeWork2;
 import java.util.Scanner;
 
 public class Task2 {
-    public static long number;
+    public static long number = 15875;
     public static long min = 9;
     public static long max = 0;
 
-    public static void getNumber() {
-        System.out.println("Введите число");
-        number = new Scanner(System.in).nextLong();
-    }
 
-    public static void divide() {
+
+    public static void getMinMax() {
         while (number > 0) {
             long current = number % 10;
             if (current > max) {
@@ -26,10 +23,11 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        getNumber();
-        divide();
+        getMinMax();
         System.out.printf("Минимальное значение : %s%nМаксимальное значение : %s%n", min, max);
 
 
     }
 }
+
+
