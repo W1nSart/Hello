@@ -1,4 +1,5 @@
 package HomeWork2;
+//MINMAX
 
 import java.util.Scanner;
 
