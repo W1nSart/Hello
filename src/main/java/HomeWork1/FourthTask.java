@@ -1,4 +1,4 @@
-package org.home;
+package HomeWork1;
 
 public class FourthTask {
     public static void main(String[] args) {
